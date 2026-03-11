@@ -17,406 +17,587 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
-      titulo: 'Cuestionario',
+      tema: 'Empresa y clasificación empresarial en Colombia.',
+      titulo: 'Empresa y clasificación empresarial en Colombia.',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Identificar los conceptos fundamentales del entorno empresarial colombiano y los criterios normativos de clasificación (actividad, tamaño y origen de capital) para fundamentar el análisis de organizaciones en contextos reales o hipotéticos.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: 'Según el Código de Comercio, la empresa se define como:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Un establecimiento físico registrado.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Una actividad económica organizada.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Una marca comercial registrada.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Un contrato entre socios legales.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            '¿Qué artículos de la Constitución Política reconocen la función social de la empresa?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Artículos 333 y 334.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Artículos 10 y 25.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Artículos 515 y 25.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Artículos 1 y 2.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: 'El comerciante es definido como:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'El propietario real del local comercial o establecimiento.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Quien ejerce profesionalmente actividades mercantiles.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Toda persona que vende productos ocasionalmente.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'El administrador del establecimiento de comercio.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: 'El establecimiento de comercio corresponde a:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'La actividad productiva económicamente realizada con lucro.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'El nombre comercial o industrial que se designa por decisión.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'El conjunto de bienes organizados para desarrollar la empresa.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'El registro mercantil con la información requerida.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            '¿Cuál NO es un criterio principal de clasificación empresarial en Colombia?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Actividad económica.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Tamaño empresarial.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Color corporativo.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Origen del capital.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: 'La CIIU permite principalmente:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Determinar impuestos y contribuciones empresariales.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Organizar las actividades económicas de forma estandarizada.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Clasificar empleados, de una manera organizada y estructurada.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Registrar marcas comerciales, patentes y demás información.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
         },
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Cuál es el nivel más específico dentro de la estructura CIIU?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Sección.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'División.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Grupo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Clase.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
         },
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            'La clasificación por tamaño empresarial en Colombia se basa principalmente en:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Número de empleados de la empresa.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Antigüedad de la empresa en el mercado.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Ingresos anuales por actividades ordinarias.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Cantidad de socios registrados con patrimonio.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
         },
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+            'El Decreto que reglamenta la clasificación empresarial por ingresos es:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Decreto 410 de 1971.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Decreto 957 de 2019.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Decreto 2150 de 1995.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Decreto 1481 de 1989.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
         },
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            'Una empresa cuyo capital proviene de particulares se clasifica como:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Pública.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Mixta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Privada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Solidaria.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
         },
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            'Las organizaciones sin ánimo de lucro se caracterizan porque:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Reinvierten sus excedentes en su objeto social.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Distribuyen utilidades entre socios o propietarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'No generan ingresos por motivos de recesión.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Son siempre públicas y se reportan al estado.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Cuál forma jurídica es considerada la más flexible en Colombia?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Sociedad colectiva.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Sociedad anónima.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Sociedad por acciones simplificada (S.A.S.).',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Sociedad limitada.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: 'Una cooperativa pertenece al tipo de organización:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Mercantil.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Pública.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Economía solidaria.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Sociedad anónima.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: 'Las sociedades BIC son:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Un tipo societario legal y obligatorio que debe reportar información.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Una condición voluntaria de propósito social y ambiental.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto:
+                'Empresas sin ánimo de lucro, dedicadas a actividades financieras.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Empresas públicas, que prestan servicios públicos e intangibles.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: 'La clasificación integral de una empresa combina:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Actividad económica, tamaño y capital/finalidad.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Ubicación y número de empleados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Marca y publicidad debidamente justificada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Producción y ventas únicamente.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
+        },
+        {
+          id: 16,
+          texto:
+            'La empresa y el establecimiento de comercio significan lo mismo.',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Falso.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Verdadero.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
+        },
+        {
+          id: 17,
+          texto:
+            'La clasificación empresarial facilita análisis y toma de decisiones económicas.',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Falso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Verdadero.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
+        },
+        {
+          id: 18,
+          texto:
+            'El tamaño empresarial oficial en Colombia se determina principalmente por ingresos anuales.',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Falso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Verdadero.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
+        },
+        {
+          id: 19,
+          texto:
+            'Las entidades sin ánimo de lucro distribuyen utilidades entre sus miembros.',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Falso.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Verdadero.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
+        },
+        {
+          id: 20,
+          texto:
+            'Una sociedad BIC mantiene el ánimo de lucro, pero incorpora impacto social y ambiental.',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Falso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Verdadero.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Su respuesta es correcta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta es incorrecta.',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
