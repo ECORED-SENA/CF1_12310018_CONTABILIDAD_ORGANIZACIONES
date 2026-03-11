@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name: 'Empresa y clasificación empresarial en Colombia.',
+    Description:
+      'Este componente formativo explica el concepto de empresa en Colombia y desarrolla los criterios más usados para su clasificación (actividad económica, tamaño empresarial y origen del capital/finalidad). El propósito pedagógico es que el aprendiz pueda reconocer y justificar la clasificación de una empresa real o hipotética con base en la normativa vigente y en estándares oficiales.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
