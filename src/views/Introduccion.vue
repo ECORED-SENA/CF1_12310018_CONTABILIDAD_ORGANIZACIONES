@@ -20,7 +20,7 @@
     p.mb-5 Este análisis se desarrolla de manera progresiva para explicar cómo se articulan los conceptos técnicos con las formas jurídicas de constitución. Al dominar estas definiciones y clasificaciones bajo la normativa vigente, es posible interpretar con precisión el entorno económico y las dinámicas organizacionales que rigen la realidad empresarial en el país 
     
     
-        separador
+    separador
 
 </template>
 
