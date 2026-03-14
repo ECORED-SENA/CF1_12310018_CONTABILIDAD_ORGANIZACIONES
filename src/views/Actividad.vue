@@ -20,7 +20,7 @@ export default {
       tema: 'Empresa y clasificación empresarial en Colombia.',
       titulo: 'Empresa y clasificación empresarial en Colombia.',
       introduccion:
-        '<b> Objetivo:</b> Identificar los conceptos fundamentales del entorno empresarial colombiano y los criterios normativos de clasificación (actividad, tamaño y origen de capital) para fundamentar el análisis de organizaciones en contextos reales o hipotéticos.',
+        '<b> Objetivo:</b> identificar los conceptos fundamentales del entorno empresarial colombiano y los criterios normativos de clasificación (actividad, tamaño y origen de capital) para fundamentar el análisis de organizaciones en contextos reales o hipotéticos.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
